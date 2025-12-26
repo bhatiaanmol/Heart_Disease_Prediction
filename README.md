@@ -95,8 +95,8 @@ heart-disease-prediction/
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone <your-github-repo-link>
-cd heart-disease-prediction
+git clone (https://github.com/bhatiaanmol/Heart_Disease_Prediction)
+cd HDP
 
 python -m venv .venv
 .\.venv\Scripts\activate

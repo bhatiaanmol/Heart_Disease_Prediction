@@ -1,17 +1,17 @@
-# ❤️ Heart Disease Prediction System
+#  Heart Disease Prediction System
 
 An end-to-end Machine Learning application that predicts the likelihood of heart disease based on patient clinical data.  
 The project includes data analysis, model training, evaluation, and deployment using Streamlit.
 
 ---
 
-## 📌 Problem Statement
+##  Problem Statement
 Heart disease is one of the leading causes of death worldwide. Early detection can significantly improve treatment outcomes.  
 This project aims to build a machine learning model that predicts whether a patient is likely to have heart disease based on clinical parameters.
 
 ---
 
-## 📊 Dataset
+##  Dataset
 - **Source:** UCI Heart Disease Dataset (Kaggle)
 - **Type:** Structured medical dataset
 - **Target Variable:**  
@@ -31,7 +31,7 @@ This project aims to build a machine learning model that predicts whether a pati
 
 ---
 
-## 🧠 Exploratory Data Analysis (EDA)
+##  Exploratory Data Analysis (EDA)
 Key EDA steps performed:
 - Checked class balance (dataset is fairly balanced)
 - Correlation analysis using heatmap
@@ -40,25 +40,25 @@ Key EDA steps performed:
 
 ---
 
-## ⚙️ Model Building
+##  Model Building
 Two models were trained and compared:
 
-### 1️⃣ Logistic Regression (Final Model ✅)
+### 1️ Logistic Regression (Final Model ✅)
 - Accuracy: ~85%
 - Balanced precision and recall
 - Fewer false negatives (important in medical use cases)
 - Better generalization on small, structured datasets
 
-### 2️⃣ Random Forest
+### 2️ Random Forest
 - Lower accuracy (~70%)
 - High false negatives
 - Poor recall for heart disease class
 
-👉 **Logistic Regression was selected** due to better performance and medical relevance.
+ **Logistic Regression was selected** due to better performance and medical relevance.
 
 ---
 
-## 📈 Model Evaluation
+##  Model Evaluation
 - Accuracy Score
 - Confusion Matrix
 - Precision, Recall, F1-score
@@ -67,7 +67,7 @@ Special emphasis was placed on **minimizing false negatives**, as missing a hear
 
 ---
 
-## 🚀 Deployment
+##  Deployment
 The trained model was deployed using **Streamlit** to create an interactive web application where users can:
 - Enter patient clinical data
 - Get real-time prediction
@@ -75,7 +75,7 @@ The trained model was deployed using **Streamlit** to create an interactive web 
 
 ---
 
-## 🖥️ Project Structure
+##  Project Structure
 heart-disease-prediction/
 ├── app.py
 ├── logistic_model.pkl
@@ -91,9 +91,9 @@ heart-disease-prediction/
 
 ---
 
-## ▶️ How to Run the App Locally
+##  How to Run the App Locally
 
-### 1️⃣ Clone the repository
+### 1️ Clone the repository
 ```bash
 git clone (https://github.com/bhatiaanmol/Heart_Disease_Prediction)
 cd Heart_Disease_Prediction
